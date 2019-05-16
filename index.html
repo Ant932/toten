@@ -54,14 +54,26 @@ URI     : https://colorlib.com
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img width="50%" src="images/telhanorte_mod.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <a class="navbar-brand" href="index.html"><img width="50%" src="images/telhanorte_mod.png" class="img-fluid" alt="logo"></a> 
+                        
+                            
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+
+
+
                          <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
                                 <!--<li class="nav-item"> <a class="nav-link active" href="#estoque">INÍCIO <span class="sr-only">(current)</span></a> </li>-->
-                                <li class="nav-item"> <a class="nav-link" href="#estoque">CONSULTA PRODUTOS</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#estoque">CONSULTAR PRODUTOS</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#galeria">OUTLET</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#cadastro">CADASTRAR</a> </li>
-                                
+                                <li class="nav-item"> 
                                     <button class="x-header__minicart x-header__minicart--menu js--minicart-open" title="Carrinho">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 486.569 486.569" style="enable-background:new 0 0 486.569 486.569;" xml:space="preserve">
                                             <g>
@@ -70,7 +82,9 @@ URI     : https://colorlib.com
                                             
                                       
                                       </svg>
-                                      <span class="x-minicart__amount" data-minicart-amount="0">00</span></button>
+                                      
+                                      <span class="minicart" data-minicart-amount="0">00</span>
+                                    </button>
                                 
                                     </a>
                                  </li>
@@ -111,7 +125,7 @@ URI     : https://colorlib.com
                                     </div>
                                     <!--end of col-->
                                     <div class="col">
-                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Procure um produto">
+                                        <input class="busca-rapida-input form-control form-control-lg form-control-borderless" type="search" placeholder="Procure um produto">
                                     </div>
                                     <!--end of col-->
                                     <div class="col-auto">
@@ -121,7 +135,14 @@ URI     : https://colorlib.com
                                 </div>
                             </form>
                         </div>
-    
+                        
+                        <!--dica de busca-->
+                        <div class="row busca-rapida busca-rapida-none">
+                                <div class="col-md-12">
+                                    <img src="images/busca-imagem.png" />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -141,21 +162,21 @@ URI     : https://colorlib.com
                 </div>		
                 <div class="row">                   
                      <div class="col-md-3 align-items-center box-produto">
-                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Pisos e Revestimentos</a>
-                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Climatização</a>
-                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Portas e Janelas</a>
-                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Ferragens</a>
-                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Elétrica</a>
+                        <a href="#" class="link-produto"><img src="images/pisos-e-revestimentos.png" alt="image"><br><p>Pisos e Revestimentos</p></a>
+                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Climatização</p></a>
+                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Portas e Janelas</p></a>
+                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Ferragens</p></a>
+                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Elétrica</p></a>
                         
                                               
                     </div>
                     <div class="col-md-3 align-items-center box-produto">
                         <div>
                         <!--<img src="images/dualphone.png" alt="dual phone" class="img-fluid">-->
-                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Materiais de Construção</a>
-                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Tintas</a>                             
-                            <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Área Externa</a>
-                            <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Segurança e Comunicação</a>
+                        <a href="#" class="link-produto"><img src="images/materiais-de-construcao.png" alt="image"><br><p>Materiais de Construção</p></a>
+                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Tintas</p></a>                             
+                            <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Área Externa</p></a>
+                            <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Segurança e Comunicação</p></a>
                             
                             
                             
@@ -163,10 +184,10 @@ URI     : https://colorlib.com
                     </div>
                     <div class="col-md-3 align-items-center box-produto">
                             <div>
-                                <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Decoração</a>
-                                <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Organização da Casa</a>
-                                <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Iluminação</a>
-                                <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Cozinha e Lavanderia</a>
+                                <a href="#" class="link-produto"><img src="images/decoracao.png" alt="image"><br><p>Decoração</p></a>
+                                <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Organização da Casa</p></a>
+                                <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Iluminação</p></a>
+                                <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Cozinha e Lavanderia</p></a>
                                     
                                     
                             </div>
@@ -176,10 +197,10 @@ URI     : https://colorlib.com
 
                         <div class="col-md-3 align-items-center box-produto">
                                 <div>   
-                                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Banheiro</a>
-                                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Cozinha</a>                                        
-                                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Ferramentas</a>
-                                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br>Hidráulica</a>
+                                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Banheiro</p></a>
+                                        <a href="#" class="link-produto "><img src="images/thumb-produto.png" alt="image"><br><p>Cozinha</p></a>                                        
+                                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Ferramentas</p></a>
+                                        <a href="#" class="link-produto"><img src="images/thumb-produto.png" alt="image"><br><p>Hidráulica</p></a>
                                        
                                 </div>
                             </div> 
@@ -192,81 +213,135 @@ URI     : https://colorlib.com
 
         
     <!--cesta de produtos--> 
-    <div class="section lightbox-produtos">
+    <div class="section lightbox-produtos lightbox-produtos-none">
             <div class="container">
                     <div class="section-title">
+                           
+                            <div class="row">
+                                    <div class="col-sm-12 variedades-de-produtos">
+                                        
+                                    <select name="select" class="variedades-de-produtos-select">
+                                            <option value="valor1"selected>Acabamentos para Piso</option> 
+                                            <option value="valor2">Argamassa e Rejunte</option>
+                                            <option value="valor3">Pastilhas</option>
+                                            <option value="valor3">Pisos</option>
+                                            <option value="valor3">Porcelanatos</option>
+                                            <option value="valor3">Revestimentos</option>
+                                            <option value="valor3">Peças Especiais</option>
+                                    </select>
+                                    <select name="select" class="variedades-de-produtos-select">
+                                            <option value="valor1"selected>Rodapés</option> 
+                                            <option value="valor2">Soleiras de Porta</option>
+                                       </select>
+                                </div>
+                                    
+                            </div>
+
                             <div class="row">
                                 <div class="col-sm-12">
                                 
                                     
-                            <div class="row">
-                                <div class="col-md-4">
+                            <div class="row produto-lightbox">
+                                <div class="col-md-3">
                                    <img src="images/thumb-lightbox-produtos.png" />
                                    <p>Piso Rotocolor Angra<br>
                                         44,75x44,75 bege claro<br>
                                         Formigres</p>
-                                        <a href="Comprar">Colocar na Cesta</a>
+                                        <p class="preço">10,90</p>
+                                        <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
                                 </div> 
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                         <img src="images/thumb-lightbox-produtos.png" />
                                         <p>Piso Rotocolor Angra<br>
                                              44,75x44,75 bege claro<br>
                                              Formigres</p>
-                                             <a href="Comprar">Colocar na Cesta</a>
+                                             <p class="preço">10,90</p>
+                                             <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
                                      </div> 
-                                     <div class="col-md-4">
+                                     <div class="col-md-3">
                                             <img src="images/thumb-lightbox-produtos.png" />
                                             <p>Piso Rotocolor Angra<br>
                                                  44,75x44,75 bege claro<br>
                                                  Formigres</p>
-                                                 <a href="Comprar">Colocar na Cesta</a>
+                                                 <p class="preço">10,90</p>
+                                                 <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
                                          </div>
-                                </div>
-                                <div class="row">
-                                        <div class="col-md-4">
-                                           <img src="images/thumb-lightbox-produtos.png" />
-                                           <p>Piso Rotocolor Angra<br>
-                                                44,75x44,75 bege claro<br>
-                                                Formigres</p>
-                                                <a href="Comprar">Colocar na Cesta</a>
-                                        </div> 
-                                        <div class="col-md-4">
+                                         <div class="col-md-3">
                                                 <img src="images/thumb-lightbox-produtos.png" />
                                                 <p>Piso Rotocolor Angra<br>
                                                      44,75x44,75 bege claro<br>
                                                      Formigres</p>
-                                                     <a href="Comprar">Colocar na Cesta</a>
+                                                     <p class="preço">10,90</p>
+                                                     <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
+                                             </div>
+                                </div>
+                                <div class="row produto-lightbox">
+                                        <div class="col-md-3">
+                                           <img src="images/thumb-lightbox-produtos.png" />
+                                           <p>Piso Rotocolor Angra<br>
+                                                44,75x44,75 bege claro<br>
+                                                Formigres</p>
+                                                <p class="preço">10,90</p>
+                                                <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
+                                        </div> 
+                                        <div class="col-md-3">
+                                                <img src="images/thumb-lightbox-produtos.png" />
+                                                <p>Piso Rotocolor Angra<br>
+                                                     44,75x44,75 bege claro<br>
+                                                     Formigres</p>
+                                                     <p class="preço">10,90</p>
+                                                     <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
                                              </div> 
-                                             <div class="col-md-4">
+                                             <div class="col-md-3">
                                                     <img src="images/thumb-lightbox-produtos.png" />
                                                     <p>Piso Rotocolor Angra<br>
                                                          44,75x44,75 bege claro<br>
                                                          Formigres</p>
-                                                         <a href="Comprar">Colocar na Cesta</a>
+                                                         <p class="preço">10,90</p>
+                                                         <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
                                                  </div>
-                                        </div> 
-                                        <div class="row">
-                                                <div class="col-md-4">
-                                                   <img src="images/thumb-lightbox-produtos.png" />
-                                                   <p>Piso Rotocolor Angra<br>
-                                                        44,75x44,75 bege claro<br>
-                                                        Formigres</p>
-                                                        <a href="Comprar">Colocar na Cesta</a>
-                                                </div> 
-                                                <div class="col-md-4">
+                                                 <div class="col-md-3">
                                                         <img src="images/thumb-lightbox-produtos.png" />
                                                         <p>Piso Rotocolor Angra<br>
                                                              44,75x44,75 bege claro<br>
                                                              Formigres</p>
-                                                             <a href="Comprar">Colocar na Cesta</a>
+                                                             <p class="preço">10,90</p>
+                                                             <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
+                                                     </div>
+                                        </div> 
+                                        <div class="row produto-lightbox">
+                                                <div class="col-md-3">
+                                                   <img src="images/thumb-lightbox-produtos.png" />
+                                                   <p>Piso Rotocolor Angra<br>
+                                                        44,75x44,75 bege claro<br>
+                                                        Formigres</p>
+                                                        <p class="preço">10,90</p>
+                                                        <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
+                                                </div> 
+                                                <div class="col-md-3">
+                                                        <img src="images/thumb-lightbox-produtos.png" />
+                                                        <p>Piso Rotocolor Angra<br>
+                                                             44,75x44,75 bege claro<br>
+                                                             Formigres</p>
+                                                             <p class="preço">10,90</p>
+                                                             <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
                                                      </div> 
-                                                     <div class="col-md-4">
+                                                     <div class="col-md-3">
                                                             <img src="images/thumb-lightbox-produtos.png" />
                                                             <p>Piso Rotocolor Angra<br>
                                                                  44,75x44,75 bege claro<br>
                                                                  Formigres</p>
-                                                                 <a href="Comprar">Colocar na Cesta</a>
+                                                                 <p class="preço">10,90</p>
+                                                                 <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
                                                          </div>
+                                                         <div class="col-md-3">
+                                                                <img src="images/thumb-lightbox-produtos.png" />
+                                                                <p>Piso Rotocolor Angra<br>
+                                                                     44,75x44,75 bege claro<br>
+                                                                     Formigres</p>
+                                                                     <p class="preço">10,90</p>
+                                                                     <a class="btn-produto-lightbox" href="Comprar">Colocar na Cesta</a>
+                                                             </div>
                                                 </div> 
                                          
                                         
@@ -285,7 +360,7 @@ URI     : https://colorlib.com
         <div class="container">
             <div class="section-title">
                <!-- <small>GALLERY</small> -->
-                <h3>Produtos em destaque</h3>
+                <h3>OUTLET - Produtos em destaque</h3>
             </div>
 
             <div class="img-gallery owl-carousel owl-theme">
@@ -327,13 +402,26 @@ URI     : https://colorlib.com
     <script>
     
     //search box
-    $( ".link-produto" ).click(function(e) {
+    //$( ".link-produto" ).click(function(e) {
+       // e.preventDefault();
+       // $(".lightbox-produtos-none").toggleClass('lightbox-produtos-none');
+	  //});
+    
+      $( ".btn-produto-lightbox" ).click(function(e) {
         e.preventDefault();
-        $(".lightbox-produtos").toggleClass('active-lightbox-produtos');
+        $(".lightbox-produtos").toggleClass('lightbox-produtos-none');
 	  });
-    
-  
-    
+
+      $( ".busca-rapida-input" ).focus(function(e) {
+        e.preventDefault();
+        $(".busca-rapida").toggleClass('busca-rapida-none');
+	  });
+
+      $( ".busca-rapida-input" ).focusout(function(e) {
+        e.preventDefault();
+        $(".busca-rapida").toggleClass('busca-rapida-none');
+	  });
+ 
     
     
     </script>
