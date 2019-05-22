@@ -219,7 +219,8 @@ URI     : https://colorlib.com
                            
                             <div class="row">
                                     <div class="col-sm-12 variedades-de-produtos">
-                                        
+                                
+                                    <a href="#" class="btn-fechar-lightbox">x fechar</a>
                                     <select name="select" class="variedades-de-produtos-select">
                                             <option value="valor1"selected>Acabamentos para Piso</option> 
                                             <option value="valor2">Argamassa e Rejunte</option>
@@ -237,7 +238,7 @@ URI     : https://colorlib.com
                                     
                             </div>
 
-                            <div class="row">
+                            <div class="row produtos-scroll">
                                 <div class="col-sm-12">
                                 
                                     
@@ -402,15 +403,22 @@ URI     : https://colorlib.com
     <script>
     
     //search box
-    //$( ".link-produto" ).click(function(e) {
-       // e.preventDefault();
-       // $(".lightbox-produtos-none").toggleClass('lightbox-produtos-none');
-	  //});
-    
+    $( ".link-produto" ).click(function(e) {
+        e.preventDefault();
+        $(".lightbox-produtos-none").toggleClass('lightbox-produtos-none');
+	  });
+  //btn-fechar-lightbox2  
       $( ".btn-produto-lightbox" ).click(function(e) {
         e.preventDefault();
         $(".lightbox-produtos").toggleClass('lightbox-produtos-none');
-	  });
+      });
+  //btn-fechar-lightbox1
+      $( ".btn-fechar-lightbox" ).click(function(e) {
+        e.preventDefault();
+        $(".lightbox-produtos").toggleClass('lightbox-produtos-none');
+      });
+      
+      
 
       $( ".busca-rapida-input" ).focus(function(e) {
         e.preventDefault();

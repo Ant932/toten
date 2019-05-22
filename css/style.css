@@ -66,11 +66,14 @@ Copyright © All rights Reserved
     padding: 20px;
     margin-top: -30px;
     text-align: left;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
 }
 
 .variedades-de-produtos-select{
-    padding: 10px;
-    border-radius: 4px;
+    padding: 16px 40px;
+    border-radius: 54px;
 }
 
 
@@ -153,18 +156,30 @@ Copyright © All rights Reserved
 
 
 .btn-produto-lightbox{
-    margin-bottom: 40px;
-    margin-bottom: 40px;
+    text-align: center;
+    margin: 0 auto 40px auto;
     background-color: #28a745;
     color: #fff;
-    padding: 10px;
-    border-radius: 6px
+    padding: 8px 3px;
+    border-radius: 6px;
+    max-width: 134px;
+    font-size: 14px;
 }
 
 .btn-produto-lightbox:hover{
     background-color: #208838;
     color: #fff;
     text-decoration: none;
+}
+
+.btn-fechar-lightbox{
+    color: #fff;
+    position: absolute;
+    left: 740px;
+}
+.btn-fechar-lightbox:hover{
+    color: #fff;
+    text-decoration: underline;
 }
 
 .lightbox-produtos{
@@ -177,9 +192,19 @@ Copyright © All rights Reserved
    -webkit-box-shadow: 9px 10px 5px -5px rgba(0,0,0,0.26);
    -moz-box-shadow: 9px 10px 5px -5px rgba(0,0,0,0.26);
     box-shadow: 9px 10px 5px -5px rgba(0,0,0,0.26); 
-    overflow-y: scroll;
-    max-height: 380px;
-}'
+    /*overflow-y: scroll;*/
+    max-height: 500px;
+}
+
+.produtos-scroll{
+  overflow-y: scroll;
+  /*overflow:hidden;*/
+  max-height: 330px;
+}
+
+.produto-lightbox{
+  
+}
 
 .active-lightbox-produtos{
     display: block !important;
